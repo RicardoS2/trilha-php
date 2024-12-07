@@ -1,6 +1,6 @@
-<?php
-require 'dados.php';
+<?php 
+require 'dados.php'; 
 
-$view =  "index";
+$view = "index"; 
 
-require "views/template/app.php";
+require "views/template/app.php"; 

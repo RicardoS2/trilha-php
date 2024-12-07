@@ -36,10 +36,7 @@
     </header>
     <main class="mx-auto max-w-screen-lg space-x-3  space-y-6">
 
-
-            <?php require "views/{$view}.view.php" ?>
-          
-        </section>
+        <?php require "views/{$view}.view.php" ?>
 
     </main>
 </body>
