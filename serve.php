@@ -1,5 +1,2 @@
-<?php 
-$_SERVER['HOMEPTAH']="~";
-
-
-?>
+<?php
+$_SERVER['HOMEPATH'] = "~";

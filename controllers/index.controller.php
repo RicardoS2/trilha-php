@@ -1,5 +1,4 @@
 <?php
 require 'dados.php';
-$view = "index";
-
+  $view ='index';
 require "views/template/app.php";

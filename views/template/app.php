@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        jetbrains: ['"JetBrains Mono"', 'monospace'],
+                        firecode: ['Fira Code', 'monospace'], // Aqui removi as aspas duplas extras
                     },
                 },
-            }
-        }
+            },
+        };
     </script>
-
 </head>
 
-<body class="bg-stone-950 text-stone-200 font-jetbrains font-medium">
+<body class="bg-stone-950 text-stone-200 font-firecode font-medium">
     <header class=" bg-stone-900">
         <nav class=" mx-auto max-w-screen-lg flex justify-between py-4">
             <div class="font-bold text-xl tracking-wide">Book Wise</div>

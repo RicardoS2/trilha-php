@@ -1,4 +1,4 @@
-<form class="w-full flex space-x-2 ml-3 mt-6">
+<form class="w-full flex space-x-2 ml-3 mt-6 font-firecode">
     <input type="text" class="border-stone-800 bg-stone-900 text-sm rounded-md border-2 focus:outline-none px-2 py-1" placeholder="Pesquisar....."
         name="pesquisar">
     <button type="subit">🔎</button>
